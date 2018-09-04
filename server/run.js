@@ -49,7 +49,7 @@ clientCompiler.run((err, clientStats) => {
     console.log(serverStats.toString(STATS_OUTPUT_STYLE));
 
     if (!serverControl) {
-      serverControl = spawn('babel-node', [path.resolve(__dirname, '../dist/server.js')]);
+      serverControl = spawn('node', [path.resolve(__dirname, '../dist/server.js')]);
       serverControl.stdout.on('data', data => console.log(data.toString()));
       serverControl.stderr.on('data', data => console.error(data.toString()));
     }

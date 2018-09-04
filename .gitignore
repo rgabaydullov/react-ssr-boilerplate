@@ -1,0 +1,11 @@
+.idea/
+node_modules/
+dist/
+ncp-debug.log
+npm-debug.log
+daemon/logs/*
+v2/logs/*
+logs/*
+/nbproject/private/
+wallaby.js
+.DS_Store

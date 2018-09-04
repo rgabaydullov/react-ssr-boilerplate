@@ -4,15 +4,21 @@ import { hydrate } from 'react-dom';
 import Loadable from 'react-loadable';
 import store from './store';
 import Router from './router';
+// assets
+// import './styles/normalize.css';
+// import './styles/ungrid.css';
 import './styles/index.scss';
 
-const render = () => {
+window.onload = () => {
+  const root = document.getElementById('root');
+  root.style.display = 'block';
+};
+
+Loadable.preloadReady().then(() => {
   hydrate(
     <Provider store={store}>
       <Router />
     </Provider>,
-    document.querySelector('#root'),
+    document.getElementById('root'),
   );
-};
-
-Loadable.preloadReady().then(render);
+});

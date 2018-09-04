@@ -1,0 +1,7 @@
+{
+    "development": ["http://localhost", 8080],
+    "staging": ["https://stage.example.com", 80],
+    "preprod": ["https://beta.example.com", 80],
+    "production": ["https://example.com", 80]
+  }
+  
