@@ -1,4 +1,74 @@
 {
+  "../../actions/countries": [
+    {
+      "id": "./dev/src/actions/countries.js",
+      "name": "./dev/src/actions/countries.js",
+      "file": "0.js",
+      "publicPath": "/0.js"
+    },
+    {
+      "id": "./dev/src/actions/countries.js",
+      "name": "./dev/src/actions/countries.js",
+      "file": "0.js.map",
+      "publicPath": "/0.js.map"
+    }
+  ],
+  "./Page2.scss": [
+    {
+      "id": "./dev/src/pages/Page2/Page2.scss",
+      "name": "./dev/src/pages/Page2/Page2.scss",
+      "file": "0.js",
+      "publicPath": "/0.js"
+    },
+    {
+      "id": "./dev/src/pages/Page2/Page2.scss",
+      "name": "./dev/src/pages/Page2/Page2.scss",
+      "file": "0.js.map",
+      "publicPath": "/0.js.map"
+    }
+  ],
+  "../pages/Page2": [
+    {
+      "id": "./dev/src/pages/Page2/index.jsx",
+      "name": "./dev/src/pages/Page2/index.jsx",
+      "file": "0.js",
+      "publicPath": "/0.js"
+    },
+    {
+      "id": "./dev/src/pages/Page2/index.jsx",
+      "name": "./dev/src/pages/Page2/index.jsx",
+      "file": "0.js.map",
+      "publicPath": "/0.js.map"
+    }
+  ],
+  "!!../../../../node_modules/css-loader/index.js?sourceMap!../../../../node_modules/resolve-url-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js?sourceMap!./Page2.scss": [
+    {
+      "id": "./node_modules/css-loader/index.js?sourceMap!./node_modules/resolve-url-loader/index.js!./node_modules/sass-loader/lib/loader.js?sourceMap!./dev/src/pages/Page2/Page2.scss",
+      "name": "./node_modules/css-loader/index.js?sourceMap!./node_modules/resolve-url-loader/index.js!./node_modules/sass-loader/lib/loader.js?sourceMap!./dev/src/pages/Page2/Page2.scss",
+      "file": "0.js",
+      "publicPath": "/0.js"
+    },
+    {
+      "id": "./node_modules/css-loader/index.js?sourceMap!./node_modules/resolve-url-loader/index.js!./node_modules/sass-loader/lib/loader.js?sourceMap!./dev/src/pages/Page2/Page2.scss",
+      "name": "./node_modules/css-loader/index.js?sourceMap!./node_modules/resolve-url-loader/index.js!./node_modules/sass-loader/lib/loader.js?sourceMap!./dev/src/pages/Page2/Page2.scss",
+      "file": "0.js.map",
+      "publicPath": "/0.js.map"
+    }
+  ],
+  "../pages/Page1": [
+    {
+      "id": "./dev/src/pages/Page1/index.jsx",
+      "name": "./dev/src/pages/Page1/index.jsx",
+      "file": "1.js",
+      "publicPath": "/1.js"
+    },
+    {
+      "id": "./dev/src/pages/Page1/index.jsx",
+      "name": "./dev/src/pages/Page1/index.jsx",
+      "file": "1.js.map",
+      "publicPath": "/1.js.map"
+    }
+  ],
   "undefined": [
     {
       "id": 0,
@@ -137,6 +207,62 @@
       "name": "./node_modules/css-loader/index.js?sourceMap!./node_modules/resolve-url-loader/index.js!./node_modules/sass-loader/lib/loader.js?sourceMap!./dev/src/styles/index.scss",
       "file": "app.js.map",
       "publicPath": "/app.js.map"
+    }
+  ],
+  "@babel/runtime/helpers/esm/assertThisInitialized": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js",
+      "name": "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js",
+      "file": "vendor.js",
+      "publicPath": "/vendor.js"
+    },
+    {
+      "id": "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js",
+      "name": "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js",
+      "file": "vendor.js.map",
+      "publicPath": "/vendor.js.map"
+    }
+  ],
+  "@babel/runtime/helpers/esm/extends": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/esm/extends.js",
+      "name": "./node_modules/@babel/runtime/helpers/esm/extends.js",
+      "file": "vendor.js",
+      "publicPath": "/vendor.js"
+    },
+    {
+      "id": "./node_modules/@babel/runtime/helpers/esm/extends.js",
+      "name": "./node_modules/@babel/runtime/helpers/esm/extends.js",
+      "file": "vendor.js.map",
+      "publicPath": "/vendor.js.map"
+    }
+  ],
+  "@babel/runtime/helpers/esm/inheritsLoose": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js",
+      "name": "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js",
+      "file": "vendor.js",
+      "publicPath": "/vendor.js"
+    },
+    {
+      "id": "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js",
+      "name": "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js",
+      "file": "vendor.js.map",
+      "publicPath": "/vendor.js.map"
+    }
+  ],
+  "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
+      "name": "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
+      "file": "vendor.js",
+      "publicPath": "/vendor.js"
+    },
+    {
+      "id": "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
+      "name": "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
+      "file": "vendor.js.map",
+      "publicPath": "/vendor.js.map"
     }
   ],
   "ansi-html": [
@@ -601,202 +727,6 @@
       "publicPath": "/vendor.js.map"
     }
   ],
-  "fbjs/lib/ExecutionEnvironment": [
-    {
-      "id": "./node_modules/fbjs/lib/ExecutionEnvironment.js",
-      "name": "./node_modules/fbjs/lib/ExecutionEnvironment.js",
-      "file": "vendor.js",
-      "publicPath": "/vendor.js"
-    },
-    {
-      "id": "./node_modules/fbjs/lib/ExecutionEnvironment.js",
-      "name": "./node_modules/fbjs/lib/ExecutionEnvironment.js",
-      "file": "vendor.js.map",
-      "publicPath": "/vendor.js.map"
-    }
-  ],
-  "./camelize": [
-    {
-      "id": "./node_modules/fbjs/lib/camelize.js",
-      "name": "./node_modules/fbjs/lib/camelize.js",
-      "file": "vendor.js",
-      "publicPath": "/vendor.js"
-    },
-    {
-      "id": "./node_modules/fbjs/lib/camelize.js",
-      "name": "./node_modules/fbjs/lib/camelize.js",
-      "file": "vendor.js.map",
-      "publicPath": "/vendor.js.map"
-    }
-  ],
-  "fbjs/lib/camelizeStyleName": [
-    {
-      "id": "./node_modules/fbjs/lib/camelizeStyleName.js",
-      "name": "./node_modules/fbjs/lib/camelizeStyleName.js",
-      "file": "vendor.js",
-      "publicPath": "/vendor.js"
-    },
-    {
-      "id": "./node_modules/fbjs/lib/camelizeStyleName.js",
-      "name": "./node_modules/fbjs/lib/camelizeStyleName.js",
-      "file": "vendor.js.map",
-      "publicPath": "/vendor.js.map"
-    }
-  ],
-  "fbjs/lib/containsNode": [
-    {
-      "id": "./node_modules/fbjs/lib/containsNode.js",
-      "name": "./node_modules/fbjs/lib/containsNode.js",
-      "file": "vendor.js",
-      "publicPath": "/vendor.js"
-    },
-    {
-      "id": "./node_modules/fbjs/lib/containsNode.js",
-      "name": "./node_modules/fbjs/lib/containsNode.js",
-      "file": "vendor.js.map",
-      "publicPath": "/vendor.js.map"
-    }
-  ],
-  "fbjs/lib/emptyFunction": [
-    {
-      "id": "./node_modules/fbjs/lib/emptyFunction.js",
-      "name": "./node_modules/fbjs/lib/emptyFunction.js",
-      "file": "vendor.js",
-      "publicPath": "/vendor.js"
-    },
-    {
-      "id": "./node_modules/fbjs/lib/emptyFunction.js",
-      "name": "./node_modules/fbjs/lib/emptyFunction.js",
-      "file": "vendor.js.map",
-      "publicPath": "/vendor.js.map"
-    }
-  ],
-  "fbjs/lib/emptyObject": [
-    {
-      "id": "./node_modules/fbjs/lib/emptyObject.js",
-      "name": "./node_modules/fbjs/lib/emptyObject.js",
-      "file": "vendor.js",
-      "publicPath": "/vendor.js"
-    },
-    {
-      "id": "./node_modules/fbjs/lib/emptyObject.js",
-      "name": "./node_modules/fbjs/lib/emptyObject.js",
-      "file": "vendor.js.map",
-      "publicPath": "/vendor.js.map"
-    }
-  ],
-  "fbjs/lib/getActiveElement": [
-    {
-      "id": "./node_modules/fbjs/lib/getActiveElement.js",
-      "name": "./node_modules/fbjs/lib/getActiveElement.js",
-      "file": "vendor.js",
-      "publicPath": "/vendor.js"
-    },
-    {
-      "id": "./node_modules/fbjs/lib/getActiveElement.js",
-      "name": "./node_modules/fbjs/lib/getActiveElement.js",
-      "file": "vendor.js.map",
-      "publicPath": "/vendor.js.map"
-    }
-  ],
-  "./hyphenate": [
-    {
-      "id": "./node_modules/fbjs/lib/hyphenate.js",
-      "name": "./node_modules/fbjs/lib/hyphenate.js",
-      "file": "vendor.js",
-      "publicPath": "/vendor.js"
-    },
-    {
-      "id": "./node_modules/fbjs/lib/hyphenate.js",
-      "name": "./node_modules/fbjs/lib/hyphenate.js",
-      "file": "vendor.js.map",
-      "publicPath": "/vendor.js.map"
-    }
-  ],
-  "fbjs/lib/hyphenateStyleName": [
-    {
-      "id": "./node_modules/fbjs/lib/hyphenateStyleName.js",
-      "name": "./node_modules/fbjs/lib/hyphenateStyleName.js",
-      "file": "vendor.js",
-      "publicPath": "/vendor.js"
-    },
-    {
-      "id": "./node_modules/fbjs/lib/hyphenateStyleName.js",
-      "name": "./node_modules/fbjs/lib/hyphenateStyleName.js",
-      "file": "vendor.js.map",
-      "publicPath": "/vendor.js.map"
-    }
-  ],
-  "fbjs/lib/invariant": [
-    {
-      "id": "./node_modules/fbjs/lib/invariant.js",
-      "name": "./node_modules/fbjs/lib/invariant.js",
-      "file": "vendor.js",
-      "publicPath": "/vendor.js"
-    },
-    {
-      "id": "./node_modules/fbjs/lib/invariant.js",
-      "name": "./node_modules/fbjs/lib/invariant.js",
-      "file": "vendor.js.map",
-      "publicPath": "/vendor.js.map"
-    }
-  ],
-  "./isNode": [
-    {
-      "id": "./node_modules/fbjs/lib/isNode.js",
-      "name": "./node_modules/fbjs/lib/isNode.js",
-      "file": "vendor.js",
-      "publicPath": "/vendor.js"
-    },
-    {
-      "id": "./node_modules/fbjs/lib/isNode.js",
-      "name": "./node_modules/fbjs/lib/isNode.js",
-      "file": "vendor.js.map",
-      "publicPath": "/vendor.js.map"
-    }
-  ],
-  "./isTextNode": [
-    {
-      "id": "./node_modules/fbjs/lib/isTextNode.js",
-      "name": "./node_modules/fbjs/lib/isTextNode.js",
-      "file": "vendor.js",
-      "publicPath": "/vendor.js"
-    },
-    {
-      "id": "./node_modules/fbjs/lib/isTextNode.js",
-      "name": "./node_modules/fbjs/lib/isTextNode.js",
-      "file": "vendor.js.map",
-      "publicPath": "/vendor.js.map"
-    }
-  ],
-  "fbjs/lib/shallowEqual": [
-    {
-      "id": "./node_modules/fbjs/lib/shallowEqual.js",
-      "name": "./node_modules/fbjs/lib/shallowEqual.js",
-      "file": "vendor.js",
-      "publicPath": "/vendor.js"
-    },
-    {
-      "id": "./node_modules/fbjs/lib/shallowEqual.js",
-      "name": "./node_modules/fbjs/lib/shallowEqual.js",
-      "file": "vendor.js.map",
-      "publicPath": "/vendor.js.map"
-    }
-  ],
-  "fbjs/lib/warning": [
-    {
-      "id": "./node_modules/fbjs/lib/warning.js",
-      "name": "./node_modules/fbjs/lib/warning.js",
-      "file": "vendor.js",
-      "publicPath": "/vendor.js"
-    },
-    {
-      "id": "./node_modules/fbjs/lib/warning.js",
-      "name": "./node_modules/fbjs/lib/warning.js",
-      "file": "vendor.js.map",
-      "publicPath": "/vendor.js.map"
-    }
-  ],
   "./DOMUtils": [
     {
       "id": "./node_modules/history/es/DOMUtils.js",
@@ -917,8 +847,20 @@
       "publicPath": "/vendor.js"
     },
     {
+      "id": "./node_modules/react-redux/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+      "name": "./node_modules/react-redux/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+      "file": "vendor.js",
+      "publicPath": "/vendor.js"
+    },
+    {
       "id": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
       "name": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+      "file": "vendor.js.map",
+      "publicPath": "/vendor.js.map"
+    },
+    {
+      "id": "./node_modules/react-redux/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+      "name": "./node_modules/react-redux/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
       "file": "vendor.js.map",
       "publicPath": "/vendor.js.map"
     }
@@ -1017,146 +959,6 @@
     {
       "id": "./node_modules/isarray/index.js",
       "name": "./node_modules/isarray/index.js",
-      "file": "vendor.js.map",
-      "publicPath": "/vendor.js.map"
-    }
-  ],
-  "./_Symbol.js": [
-    {
-      "id": "./node_modules/lodash-es/_Symbol.js",
-      "name": "./node_modules/lodash-es/_Symbol.js",
-      "file": "vendor.js",
-      "publicPath": "/vendor.js"
-    },
-    {
-      "id": "./node_modules/lodash-es/_Symbol.js",
-      "name": "./node_modules/lodash-es/_Symbol.js",
-      "file": "vendor.js.map",
-      "publicPath": "/vendor.js.map"
-    }
-  ],
-  "./_baseGetTag.js": [
-    {
-      "id": "./node_modules/lodash-es/_baseGetTag.js",
-      "name": "./node_modules/lodash-es/_baseGetTag.js",
-      "file": "vendor.js",
-      "publicPath": "/vendor.js"
-    },
-    {
-      "id": "./node_modules/lodash-es/_baseGetTag.js",
-      "name": "./node_modules/lodash-es/_baseGetTag.js",
-      "file": "vendor.js.map",
-      "publicPath": "/vendor.js.map"
-    }
-  ],
-  "./_freeGlobal.js": [
-    {
-      "id": "./node_modules/lodash-es/_freeGlobal.js",
-      "name": "./node_modules/lodash-es/_freeGlobal.js",
-      "file": "vendor.js",
-      "publicPath": "/vendor.js"
-    },
-    {
-      "id": "./node_modules/lodash-es/_freeGlobal.js",
-      "name": "./node_modules/lodash-es/_freeGlobal.js",
-      "file": "vendor.js.map",
-      "publicPath": "/vendor.js.map"
-    }
-  ],
-  "./_getPrototype.js": [
-    {
-      "id": "./node_modules/lodash-es/_getPrototype.js",
-      "name": "./node_modules/lodash-es/_getPrototype.js",
-      "file": "vendor.js",
-      "publicPath": "/vendor.js"
-    },
-    {
-      "id": "./node_modules/lodash-es/_getPrototype.js",
-      "name": "./node_modules/lodash-es/_getPrototype.js",
-      "file": "vendor.js.map",
-      "publicPath": "/vendor.js.map"
-    }
-  ],
-  "./_getRawTag.js": [
-    {
-      "id": "./node_modules/lodash-es/_getRawTag.js",
-      "name": "./node_modules/lodash-es/_getRawTag.js",
-      "file": "vendor.js",
-      "publicPath": "/vendor.js"
-    },
-    {
-      "id": "./node_modules/lodash-es/_getRawTag.js",
-      "name": "./node_modules/lodash-es/_getRawTag.js",
-      "file": "vendor.js.map",
-      "publicPath": "/vendor.js.map"
-    }
-  ],
-  "./_objectToString.js": [
-    {
-      "id": "./node_modules/lodash-es/_objectToString.js",
-      "name": "./node_modules/lodash-es/_objectToString.js",
-      "file": "vendor.js",
-      "publicPath": "/vendor.js"
-    },
-    {
-      "id": "./node_modules/lodash-es/_objectToString.js",
-      "name": "./node_modules/lodash-es/_objectToString.js",
-      "file": "vendor.js.map",
-      "publicPath": "/vendor.js.map"
-    }
-  ],
-  "./_overArg.js": [
-    {
-      "id": "./node_modules/lodash-es/_overArg.js",
-      "name": "./node_modules/lodash-es/_overArg.js",
-      "file": "vendor.js",
-      "publicPath": "/vendor.js"
-    },
-    {
-      "id": "./node_modules/lodash-es/_overArg.js",
-      "name": "./node_modules/lodash-es/_overArg.js",
-      "file": "vendor.js.map",
-      "publicPath": "/vendor.js.map"
-    }
-  ],
-  "./_root.js": [
-    {
-      "id": "./node_modules/lodash-es/_root.js",
-      "name": "./node_modules/lodash-es/_root.js",
-      "file": "vendor.js",
-      "publicPath": "/vendor.js"
-    },
-    {
-      "id": "./node_modules/lodash-es/_root.js",
-      "name": "./node_modules/lodash-es/_root.js",
-      "file": "vendor.js.map",
-      "publicPath": "/vendor.js.map"
-    }
-  ],
-  "./isObjectLike.js": [
-    {
-      "id": "./node_modules/lodash-es/isObjectLike.js",
-      "name": "./node_modules/lodash-es/isObjectLike.js",
-      "file": "vendor.js",
-      "publicPath": "/vendor.js"
-    },
-    {
-      "id": "./node_modules/lodash-es/isObjectLike.js",
-      "name": "./node_modules/lodash-es/isObjectLike.js",
-      "file": "vendor.js.map",
-      "publicPath": "/vendor.js.map"
-    }
-  ],
-  "lodash-es/isPlainObject": [
-    {
-      "id": "./node_modules/lodash-es/isPlainObject.js",
-      "name": "./node_modules/lodash-es/isPlainObject.js",
-      "file": "vendor.js",
-      "publicPath": "/vendor.js"
-    },
-    {
-      "id": "./node_modules/lodash-es/isPlainObject.js",
-      "name": "./node_modules/lodash-es/isPlainObject.js",
       "file": "vendor.js.map",
       "publicPath": "/vendor.js.map"
     }
@@ -1371,6 +1173,20 @@
       "publicPath": "/vendor.js.map"
     }
   ],
+  "./dist/react-hot-loader.production.min.js": [
+    {
+      "id": "./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js",
+      "name": "./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js",
+      "file": "vendor.js",
+      "publicPath": "/vendor.js"
+    },
+    {
+      "id": "./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js",
+      "name": "./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js",
+      "file": "vendor.js.map",
+      "publicPath": "/vendor.js.map"
+    }
+  ],
   "react-hot-loader": [
     {
       "id": "./node_modules/react-hot-loader/index.js",
@@ -1381,6 +1197,34 @@
     {
       "id": "./node_modules/react-hot-loader/index.js",
       "name": "./node_modules/react-hot-loader/index.js",
+      "file": "vendor.js.map",
+      "publicPath": "/vendor.js.map"
+    }
+  ],
+  "./cjs/react-is.development.js": [
+    {
+      "id": "./node_modules/react-is/cjs/react-is.development.js",
+      "name": "./node_modules/react-is/cjs/react-is.development.js",
+      "file": "vendor.js",
+      "publicPath": "/vendor.js"
+    },
+    {
+      "id": "./node_modules/react-is/cjs/react-is.development.js",
+      "name": "./node_modules/react-is/cjs/react-is.development.js",
+      "file": "vendor.js.map",
+      "publicPath": "/vendor.js.map"
+    }
+  ],
+  "react-is": [
+    {
+      "id": "./node_modules/react-is/index.js",
+      "name": "./node_modules/react-is/index.js",
+      "file": "vendor.js",
+      "publicPath": "/vendor.js"
+    },
+    {
+      "id": "./node_modules/react-is/index.js",
+      "name": "./node_modules/react-is/index.js",
       "file": "vendor.js.map",
       "publicPath": "/vendor.js.map"
     }
@@ -1577,6 +1421,20 @@
     {
       "id": "./node_modules/react-redux/es/utils/Subscription.js",
       "name": "./node_modules/react-redux/es/utils/Subscription.js",
+      "file": "vendor.js.map",
+      "publicPath": "/vendor.js.map"
+    }
+  ],
+  "./isPlainObject": [
+    {
+      "id": "./node_modules/react-redux/es/utils/isPlainObject.js",
+      "name": "./node_modules/react-redux/es/utils/isPlainObject.js",
+      "file": "vendor.js",
+      "publicPath": "/vendor.js"
+    },
+    {
+      "id": "./node_modules/react-redux/es/utils/isPlainObject.js",
+      "name": "./node_modules/react-redux/es/utils/isPlainObject.js",
       "file": "vendor.js.map",
       "publicPath": "/vendor.js.map"
     }
@@ -2207,6 +2065,62 @@
       "publicPath": "/vendor.js.map"
     }
   ],
+  "./cjs/scheduler-tracing.development.js": [
+    {
+      "id": "./node_modules/scheduler/cjs/scheduler-tracing.development.js",
+      "name": "./node_modules/scheduler/cjs/scheduler-tracing.development.js",
+      "file": "vendor.js",
+      "publicPath": "/vendor.js"
+    },
+    {
+      "id": "./node_modules/scheduler/cjs/scheduler-tracing.development.js",
+      "name": "./node_modules/scheduler/cjs/scheduler-tracing.development.js",
+      "file": "vendor.js.map",
+      "publicPath": "/vendor.js.map"
+    }
+  ],
+  "./cjs/scheduler.development.js": [
+    {
+      "id": "./node_modules/scheduler/cjs/scheduler.development.js",
+      "name": "./node_modules/scheduler/cjs/scheduler.development.js",
+      "file": "vendor.js",
+      "publicPath": "/vendor.js"
+    },
+    {
+      "id": "./node_modules/scheduler/cjs/scheduler.development.js",
+      "name": "./node_modules/scheduler/cjs/scheduler.development.js",
+      "file": "vendor.js.map",
+      "publicPath": "/vendor.js.map"
+    }
+  ],
+  "scheduler": [
+    {
+      "id": "./node_modules/scheduler/index.js",
+      "name": "./node_modules/scheduler/index.js",
+      "file": "vendor.js",
+      "publicPath": "/vendor.js"
+    },
+    {
+      "id": "./node_modules/scheduler/index.js",
+      "name": "./node_modules/scheduler/index.js",
+      "file": "vendor.js.map",
+      "publicPath": "/vendor.js.map"
+    }
+  ],
+  "scheduler/tracing": [
+    {
+      "id": "./node_modules/scheduler/tracing.js",
+      "name": "./node_modules/scheduler/tracing.js",
+      "file": "vendor.js",
+      "publicPath": "/vendor.js"
+    },
+    {
+      "id": "./node_modules/scheduler/tracing.js",
+      "name": "./node_modules/scheduler/tracing.js",
+      "file": "vendor.js.map",
+      "publicPath": "/vendor.js.map"
+    }
+  ],
   "shallowequal": [
     {
       "id": "./node_modules/shallowequal/index.js",
@@ -2415,76 +2329,6 @@
       "name": "./node_modules/webpack/buildin/module.js",
       "file": "vendor.js.map",
       "publicPath": "/vendor.js.map"
-    }
-  ],
-  "../pages/Page1": [
-    {
-      "id": "./dev/src/pages/Page1/index.jsx",
-      "name": "./dev/src/pages/Page1/index.jsx",
-      "file": "0.js",
-      "publicPath": "/0.js"
-    },
-    {
-      "id": "./dev/src/pages/Page1/index.jsx",
-      "name": "./dev/src/pages/Page1/index.jsx",
-      "file": "0.js.map",
-      "publicPath": "/0.js.map"
-    }
-  ],
-  "../../actions/countries": [
-    {
-      "id": "./dev/src/actions/countries.js",
-      "name": "./dev/src/actions/countries.js",
-      "file": "1.js",
-      "publicPath": "/1.js"
-    },
-    {
-      "id": "./dev/src/actions/countries.js",
-      "name": "./dev/src/actions/countries.js",
-      "file": "1.js.map",
-      "publicPath": "/1.js.map"
-    }
-  ],
-  "./Page2.scss": [
-    {
-      "id": "./dev/src/pages/Page2/Page2.scss",
-      "name": "./dev/src/pages/Page2/Page2.scss",
-      "file": "1.js",
-      "publicPath": "/1.js"
-    },
-    {
-      "id": "./dev/src/pages/Page2/Page2.scss",
-      "name": "./dev/src/pages/Page2/Page2.scss",
-      "file": "1.js.map",
-      "publicPath": "/1.js.map"
-    }
-  ],
-  "../pages/Page2": [
-    {
-      "id": "./dev/src/pages/Page2/index.jsx",
-      "name": "./dev/src/pages/Page2/index.jsx",
-      "file": "1.js",
-      "publicPath": "/1.js"
-    },
-    {
-      "id": "./dev/src/pages/Page2/index.jsx",
-      "name": "./dev/src/pages/Page2/index.jsx",
-      "file": "1.js.map",
-      "publicPath": "/1.js.map"
-    }
-  ],
-  "!!../../../../node_modules/css-loader/index.js?sourceMap!../../../../node_modules/resolve-url-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js?sourceMap!./Page2.scss": [
-    {
-      "id": "./node_modules/css-loader/index.js?sourceMap!./node_modules/resolve-url-loader/index.js!./node_modules/sass-loader/lib/loader.js?sourceMap!./dev/src/pages/Page2/Page2.scss",
-      "name": "./node_modules/css-loader/index.js?sourceMap!./node_modules/resolve-url-loader/index.js!./node_modules/sass-loader/lib/loader.js?sourceMap!./dev/src/pages/Page2/Page2.scss",
-      "file": "1.js",
-      "publicPath": "/1.js"
-    },
-    {
-      "id": "./node_modules/css-loader/index.js?sourceMap!./node_modules/resolve-url-loader/index.js!./node_modules/sass-loader/lib/loader.js?sourceMap!./dev/src/pages/Page2/Page2.scss",
-      "name": "./node_modules/css-loader/index.js?sourceMap!./node_modules/resolve-url-loader/index.js!./node_modules/sass-loader/lib/loader.js?sourceMap!./dev/src/pages/Page2/Page2.scss",
-      "file": "1.js.map",
-      "publicPath": "/1.js.map"
     }
   ]
 }

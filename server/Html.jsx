@@ -1,6 +1,7 @@
 /* eslint-disable react/no-danger */
 import React from 'react';
 import { string, arrayOf, shape } from 'prop-types';
+import serialize from 'serialize-javascript';
 import { Helmet } from 'react-helmet';
 // assets
 // import appleTouchIconx57 from './assets/apple-icon-57x57.png';
@@ -70,7 +71,7 @@ const Html = ({ assets, html, store }) => {
           }}
           dangerouslySetInnerHTML={{ __html: html }}
         />
-        <script dangerouslySetInnerHTML={{ __html: `window.__INITIAL_STATE__ = ${JSON.stringify(initialState)}` }} />
+        <script dangerouslySetInnerHTML={{ __html: `window.__INITIAL_STATE__ = ${serialize(initialState, { isJSON: true })}` }} />
         <script src="/vendor.js" />
         <script src="/app.js" defer />
         {scripts.map(({ file }) => (

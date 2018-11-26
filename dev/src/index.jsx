@@ -2,7 +2,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { hydrate } from 'react-dom';
 import Loadable from 'react-loadable';
-import store from './store';
+import initStore from './store';
 import Router from './router';
 // assets
 // import './styles/normalize.css';
@@ -16,7 +16,7 @@ window.onload = () => {
 
 Loadable.preloadReady().then(() => {
   hydrate(
-    <Provider store={store}>
+    <Provider store={initStore()}>
       <Router />
     </Provider>,
     document.getElementById('root'),

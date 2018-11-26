@@ -10,7 +10,7 @@ import webpackHotMiddleware from 'webpack-hot-middleware';
 import render from './render';
 import webpackConfigClient from '../webpack.config';
 import domains from '../config/domains.json';
-import store from '../dev/src/store';
+import initStore from '../dev/src/store';
 import Routes from '../dev/src/router/Routes';
 
 /* eslint no-console: ["error", { allow: ["log", "error"] }] */
@@ -75,6 +75,7 @@ app.use(express.static('dist'));
 // Render Basic template with fetchOnHydrate preloading
 // See React Loadable
 app.get('*', async ({ path }, res) => {
+  const store = initStore();
   const matchedComponents = matchRoutes(Routes, path).map(({ route, match }) => {
     const { component } = route;
     const { params } = match;
@@ -89,8 +90,15 @@ app.get('*', async ({ path }, res) => {
   const preloadedComponents = await Promise.all(matchedComponents);
   const actions = preloadedComponents
     .map(async (actionsToDispatch) => {
-      const dispatchedActions = await Promise.all(actionsToDispatch.map(actionPromise => (
-        actionPromise && new Promise(resolve => actionPromise.then(resolve).catch(resolve)))));
+      const dispatchedActions = await Promise.all(
+        actionsToDispatch.map(
+          actionPromise => (actionPromise && new Promise(resolve => actionPromise.then
+            ? actionPromise.then(resolve).catch(resolve)
+            : resolve(actionPromise)
+          )
+        )
+      )
+    );
       return dispatchedActions;
     }); // dispatch an actions accordingly their experience
 
