@@ -92,13 +92,16 @@ app.get('*', async ({ path }, res) => {
     .map(async (actionsToDispatch) => {
       const dispatchedActions = await Promise.all(
         actionsToDispatch.map(
-          actionPromise => (actionPromise && new Promise(resolve => actionPromise.then
-            ? actionPromise.then(resolve).catch(resolve)
-            : resolve(actionPromise)
-          )
-        )
-      )
-    );
+          actionPromise => (
+            actionPromise && new Promise(
+              resolve => actionPromise.then // eslint-disable-line no-confusing-arrow
+                ? actionPromise.then(resolve).catch(resolve)
+                : resolve(actionPromise),
+            )
+          ),
+        ),
+      );
+
       return dispatchedActions;
     }); // dispatch an actions accordingly their experience
 
@@ -108,7 +111,7 @@ app.get('*', async ({ path }, res) => {
   res.status(200).send(content);
 });
 
-app.use((err, req, res, next) => {
+app.use((err, req, res, next) => { // eslint-disable-line no-unused-vars
   // error handling logic
   try {
     console.error(err);
