@@ -108,7 +108,7 @@ app.get('*', async ({ path }, res) => {
   res.status(200).send(content);
 });
 
-app.use((err, req, res) => {
+app.use((err, req, res, next) => {
   // error handling logic
   try {
     console.error(err);
